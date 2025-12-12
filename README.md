@@ -1,5 +1,9 @@
 # Automated-Robotic-Screw-Inspection-and-Classification-Min-project-
 
+<p align="center">
+  <img src="ActualSetting" width="800" height="600">
+</p>
+
 #  Automated Robotic Screw Inspection and Classification
 
 An **industrial automation project** that integrates **robotics, artificial vision, and data-driven classification** to automatically **inspect, measure, classify, and sort screws** using two industrial robots and machine vision.
