@@ -1,7 +1,7 @@
 # Automated-Robotic-Screw-Inspection-and-Classification-Min-project-
 
 <p align="center">
-  <img src="ActualSetting" width="800" height="600">
+  <img src="Actual Setting.png" width="800" height="600">
 </p>
 
 #  Automated Robotic Screw Inspection and Classification
