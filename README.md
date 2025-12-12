@@ -1,12 +1,12 @@
 # Automated-Robotic-Screw-Inspection-and-Classification-Min-project-
 
-# 🤖 Automated Robotic Screw Inspection and Classification
+#  Automated Robotic Screw Inspection and Classification
 
 An **industrial automation project** that integrates **robotics, artificial vision, and data-driven classification** to automatically **inspect, measure, classify, and sort screws** using two industrial robots and machine vision.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a **fully automated quality inspection system** for screws, combining:
 
@@ -25,9 +25,9 @@ The system performs:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
-### 🔧 Hardware Components
+###  Hardware Components
 
 * **ABB IRB 140** robot
 
@@ -55,7 +55,7 @@ The system performs:
 
 ---
 
-### 🧠 Software Stack
+###  Software Stack
 
 | Layer             | Technology                       |
 | ----------------- | -------------------------------- |
@@ -67,7 +67,7 @@ The system performs:
 
 ---
 
-## 🔁 System Workflow
+##  System Workflow
 
 ```text
 Feeder → ABB Robot → Screw Holder → KUKA Camera Inspection
@@ -79,21 +79,21 @@ Feeder → ABB Robot → Screw Holder → KUKA Camera Inspection
 
 ---
 
-## 🦾 Robot Modeling & Motion Planning
+##  Robot Modeling & Motion Planning
 
-### ✔ Forward Kinematics
+###  Forward Kinematics
 
 * Computes end-effector pose from joint angles
 * Homogeneous transformation matrices used
 * Required for accurate camera positioning
 
-### ✔ Inverse Kinematics
+###  Inverse Kinematics
 
 * Analytical solution for first 3 joints
 * Rotation-matrix-based solution for wrist joints
 * Newton–Raphson method for numerical refinement
 
-### ✔ Body Jacobian
+###  Body Jacobian
 
 * Maps joint velocities to end-effector velocities
 * Used for:
@@ -101,7 +101,7 @@ Feeder → ABB Robot → Screw Holder → KUKA Camera Inspection
   * Velocity control
   * Manipulability analysis
 
-### ✔ Trajectory Planning
+###  Trajectory Planning
 
 * **Trapezoidal velocity profiles**
 * Smooth acceleration & deceleration
@@ -109,9 +109,9 @@ Feeder → ABB Robot → Screw Holder → KUKA Camera Inspection
 
 ---
 
-## 🎥 Vision-Based Screw Inspection
+##  Vision-Based Screw Inspection
 
-### 🔍 Measured Parameters
+###  Measured Parameters
 
 * Screw head diameter / width
 * Total screw length
@@ -121,7 +121,7 @@ Feeder → ABB Robot → Screw Holder → KUKA Camera Inspection
 
 ---
 
-## 🧪 Metrology Station – Thread Inspection (MATLAB)
+##  Metrology Station – Thread Inspection (MATLAB)
 
 ### Processing Pipeline
 
@@ -136,11 +136,11 @@ Feeder → ABB Robot → Screw Holder → KUKA Camera Inspection
 9. Pitch & depth calculation
 10. Scaling (pixel → mm)
 
-📏 **Scale factor:** ~0.03 mm/pixel
+ **Scale factor:** ~0.03 mm/pixel
 
 ---
 
-## 🧠 Sorting Station – Screw Head Inspection
+##  Sorting Station – Screw Head Inspection
 
 ### Camera Calibration
 
@@ -156,7 +156,7 @@ Feeder → ABB Robot → Screw Holder → KUKA Camera Inspection
 
 ---
 
-## 📡 ROS Communication Architecture
+##  ROS Communication Architecture
 
 ### ROS Nodes
 
@@ -173,7 +173,7 @@ Feeder → ABB Robot → Screw Holder → KUKA Camera Inspection
 
 ---
 
-## 📊 Screw Classification
+##  Screw Classification
 
 Based on extracted features:
 
@@ -195,7 +195,7 @@ Results are sent to ABB robot for **sorting & palletizing**.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Single robot with **camera + gripper** on same end-effector
 * Motorized focus lens
@@ -204,7 +204,7 @@ Results are sent to ABB robot for **sorting & palletizing**.
 
 ---
 
-## 📁 Project Structure (Suggested)
+##  Project Structure (Suggested)
 
 ```text
 ├── robotics/
@@ -224,7 +224,7 @@ Results are sent to ABB robot for **sorting & palletizing**.
 
 ---
 
-## 🧾 References
+##  References
 
 * Industrial Robotics – ABB & KUKA
 * MATLAB Image Processing Toolbox
@@ -233,11 +233,8 @@ Results are sent to ABB robot for **sorting & palletizing**.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Automated Robotic Screw Inspection and Classification**
 Academic & Industrial Robotics Project
 
----
-
-⭐ *If you use this project, consider citing or referencing the work.*
